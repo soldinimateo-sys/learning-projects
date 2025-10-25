@@ -19,7 +19,7 @@ This project aims to build a clean and reproducible numerical workflow: starting
 
 Given a differentiable function f(x), Newton–Raphson iterates
 
-\[ x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)} \]
+$$ x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)} $$
 
 Key conditions:
 - f'(x_n) ≠ 0 at each step.
@@ -28,13 +28,13 @@ Key conditions:
 
 ## EOQ Application (Cost Minimization)
 
-We consider a simplified EOQ‑style cost function:
+We consider a simplified EOQ-style cost function:
 
-\[ C(L) = \frac{a}{L} + b\,L \]
+$$ C(L) = \frac{a}{L} + bL $$
 
 where L is lot size, a is order/setup related cost, and b is holding cost. The optimal lot size satisfies dC/dL = 0, leading analytically to
 
-\[ L^* = \sqrt{\frac{a}{b}}. \]
+$$ L^* = \sqrt{\frac{a}{b}}. $$
 
 In practice, we set f(L) = dC/dL and find f(L) = 0 numerically using Newton–Raphson, then compare to the analytical solution and to SciPy.
 
