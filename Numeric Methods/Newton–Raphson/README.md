@@ -123,12 +123,6 @@ What’s covered in `test_my_newton.py`:
 - SciPy Optimize: `scipy.optimize.newton`.
 - EOQ model basics in operations management literature.
 
-## What I Learned and Nexts Steps
-
-As my first GitHub document, the project teach me how to implememt and explain math algorithms, and testing them. As mi profile is oriented to business solutions, I tougth that the EOQ cost was a great example of use. 
-
-I think this was a great first project because teach me the steps of communicating solutions.
-
 ## What I Learned and Next Steps
 
 This is my first documented GitHub project, and it helped me learn not only how to implement a numerical method, but how to **present it clearly and test it properly**. I chose EOQ because my long-term interest is connecting math with real decision-making in business settings.
@@ -136,7 +130,7 @@ This is my first documented GitHub project, and it helped me learn not only how 
 **Key takeaways**
 - Starting with a simple case made it easier to focus on testing and correctness.
 - Automating the tests gave me confidence in the implementation.
-- The method is much easier to understand when connected to a concrete scenario like EOQ.
+- The method is easier to understand when connected to a concrete scenario like EOQ.
 - Writing documentation forces you to think about *why* the method is useful, not only *how* it works.
 
 **Next steps**
@@ -145,6 +139,7 @@ This is my first documented GitHub project, and it helped me learn not only how 
 - Eventually build a small solver module as part of a growing toolkit for applied math.
 
 This project is my first step toward building tools that create value through applied mathematics and technology.
+
 
 
 
