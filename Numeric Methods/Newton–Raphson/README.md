@@ -1,4 +1,5 @@
 ﻿# Newton–Raphson Method with EOQ Application
+[![tests](https://github.com/soldinimateo-sys/learning-projects/actions/workflows/tests.yml/badge.svg)](https://github.com/soldinimateo-sys/learning-projects/actions/workflows/tests.yml)
 
 **A small, from-scratch implementation of the Newton–Raphson method, applied to the EOQ (Economic Order Quantity) cost model as a practical business example.**
 The solution is validated against SciPy and supported by basic unit tests.
