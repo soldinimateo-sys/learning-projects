@@ -1,0 +1,9 @@
+﻿# Core runtime
+numpy
+sympy
+scipy
+matplotlib
+
+# Dev / notebook
+pytest
+jupyter
